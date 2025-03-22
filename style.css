@@ -162,6 +162,23 @@ body{
     background: #FFC0D3; 
     color: #524A4E;
 }
+.chats-container .user-message .img-attachment{
+    width: 50%;
+    margin-top: -7px;
+    border-radius: 13px 3px 13px 13px;
+}
+.chats-container .user-message .file-attachment{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 10px;
+    margin-top: -7px;
+    border-radius: 13px 3px 13px 13px;
+    background: var(--secondary-color);
+}
+.chats-container .user-message .file-attachment span{
+    color: #FFC0D3;
+}
 /* Prompt container stylings */
 .prompt-container{
     position: fixed;
@@ -257,7 +274,7 @@ body{
     color: #d62939;
 }
 .prompt-form .file-icon{
-    color: #1d7efd;
+    color: #FFC0D3;
 }
 .prompt-container .disclaimer-text{
     text-align: center;
